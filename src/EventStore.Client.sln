@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventStore.Client", "EventStore.Client\EventStore.Client.csproj", "{AD4869CD-447C-4B67-8239-7EEA5FDAD39C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventStore.Client", "EventStore.Client\EventStore.Client.csproj", "{AD4869CD-447C-4B67-8239-7EEA5FDAD39C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventStore.Client.Playground", "EventStore.Client.Playground\EventStore.Client.Playground.csproj", "{BA90441F-9890-4114-9037-5000C4377CD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AD4869CD-447C-4B67-8239-7EEA5FDAD39C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD4869CD-447C-4B67-8239-7EEA5FDAD39C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD4869CD-447C-4B67-8239-7EEA5FDAD39C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA90441F-9890-4114-9037-5000C4377CD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA90441F-9890-4114-9037-5000C4377CD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA90441F-9890-4114-9037-5000C4377CD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA90441F-9890-4114-9037-5000C4377CD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
