@@ -1,10 +1,10 @@
-﻿using EventStore.Client.Operations;
+﻿using EventStore.Client.Messages;
 using System.Threading.Tasks;
 
 namespace EventStore.Client
 {
     public interface IEventStoreConnection
     {
-        Task<OperationResult> Connect();
+        Task<Result> Connect();
     }
 }
